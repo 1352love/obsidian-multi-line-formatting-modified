@@ -1,0 +1,24 @@
+{
+  "styleArray": [
+    {
+      "id": "multi-line-format-cyan-highlight",
+      "nickname": "Supermemo Extract",
+      "leftStyle": "<span class=\"Extractt\">",
+      "rightStyle": "</span>",
+      "skipHeadings": true,
+      "skipListItems": false,
+      "skipBlockquotes": false,
+      "formatWord": false
+    },
+    {
+      "id": "multi-line-format-bold",
+      "nickname": "Supermemo Clozed",
+      "leftStyle": "<span class=\"Clozedd\">",
+      "rightStyle": "</span>",
+      "skipHeadings": true,
+      "skipListItems": false,
+      "skipBlockquotes": false,
+      "formatWord": false
+    }
+  ]
+}

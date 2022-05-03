@@ -1,0 +1,26 @@
+{
+  "name": "multi-line-formatting",
+  "author": "nmady",
+  "version": "0.4.1",
+  "description": "Apply formatting to selected text, dealing with the paragraph breaks.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "rollup --config rollup.config.js -w",
+    "build": "rollup --config rollup.config.js --environment BUILD:production"
+  },
+  "keywords": [
+    "obsidian-md"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^18.0.0",
+    "@rollup/plugin-node-resolve": "^11.2.1",
+    "@rollup/plugin-typescript": "^8.2.1",
+    "@types/node": "^14.14.41",
+    "obsidian": "^0.12.0",
+    "prettier": "^2.3.2",
+    "rollup": "^2.45.2",
+    "tslib": "2.2.0",
+    "typescript": "^4.2.4"
+  }
+}
